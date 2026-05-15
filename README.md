@@ -136,6 +136,14 @@ The repository includes:
 - interactive Quito trip-location map
 - project requirements file
 
+## Map Preview
+
+GitHub does not render interactive Folium maps directly inside notebooks, so this repository includes a static preview of the trip locations and a separate interactive HTML map.
+
+![Quito taxi trip locations](images/quito_trip_locations_map.png)
+
+The full interactive map is available in `reports/quito_trip_locations_map.html`.
+
 ## Repository Structure
 
 ```text
@@ -150,6 +158,8 @@ traffic-wait-time-prediction-quito/
     01_traffic_wait_time_prediction_quito.ipynb
   models/
     traffic_wait_time_model.pkl
+  images/
+    quito_trip_locations_map.png
   reports/
     quito_trip_locations_map.html
     traffic_wait_time_predictions.csv
