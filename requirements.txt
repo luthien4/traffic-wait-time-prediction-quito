@@ -1,0 +1,9 @@
+folium
+joblib
+jupyter
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
