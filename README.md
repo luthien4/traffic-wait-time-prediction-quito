@@ -142,7 +142,8 @@ GitHub does not render interactive Folium maps directly inside notebooks, so thi
 
 ![Quito taxi trip locations](images/quito_trip_locations_map.png)
 
-The full interactive map is available in `reports/quito_trip_locations_map.html`.
+The full interactive Folium map is saved in `reports/quito_trip_locations_map.html`.
+Because GitHub may not preview large interactive HTML files, download the file or open it locally in a browser to explore the map.
 
 ## Repository Structure
 
